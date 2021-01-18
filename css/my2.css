@@ -1,0 +1,114 @@
+.main{
+ position: relative;
+  width: 400px;
+  height: 170px;
+ 
+}
+.submain
+{
+ position: absolute;
+  top: 55px;
+  right: 0;
+  left: 280px;
+  width: 200px;
+  height: 100px;
+}
+.mainbar{
+position: absolute;
+  top: 80px;
+  right: 0;
+  left: 421px;
+  width: 200px;
+  height: 20px;
+}
+.heading{
+font-size:20px;
+font-weight:bold;
+position: absolute;
+top: 85px;
+ right: 0;
+ left: 430px;
+ width: 200px;
+ height: 20px;
+}
+.subhead{
+font-size:20px;
+font-weight:bold;
+position: absolute;
+top: 159px;
+ right: 0;
+ left: 590px;
+ width: 200px;
+ height: 20px;
+}
+.txtx{
+font-size:15px;
+font-weight:bold;
+position: absolute;
+top: 250px;
+ right: 0;
+ left: 530px;
+ width: 300px;
+ height: 20px;
+}
+.end{
+	font-size:15px;
+font-weight:bold;
+position: absolute;
+top: 390px;
+ right: 0;
+ left: 590px;
+ width: 300px;
+ height: 30px;
+	
+}
+.submit {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+input[type=submit] {
+  width: 60%;
+  background-color: #2F4F4F;
+  font-weight:bold;
+  font-family:Times New Roman;
+  color: white;
+  font-size:25px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0E6655;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+a:link {
+    color: orange;
+}
+a:hover {
+    color: blue;
+}
